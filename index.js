@@ -162,7 +162,7 @@ zets.ev.on('messages.upsert', async chatUpdate => {
                 if (anu.action == 'add') {
                     zets.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Welcome To ${metadata.subject} @${num.split("@")[0]}` })
                 } else if (anu.action == 'remove') {
-                    zets.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `@${num.split("@")[0]} Leaving To ${metadata.subject}` })
+                    zets.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `◪ Goodbye @${num.split("@")[0]} Leave From Group: ${metadata.subject} Sayonara👋` }) 
                 } else if (anu.action == 'promote') {
                     zets.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `@${num.split('@')[0]} Promote From ${metadata.subject}` })
                 } else if (anu.action == 'demote') {
