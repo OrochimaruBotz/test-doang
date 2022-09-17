@@ -2979,7 +2979,7 @@ anu = `Hai kak ${pushname}, Jangan Lupa Join Group DidinBotz‡ https://chat.wha
 case 'grupmenu': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
 buffer = `https://i.postimg.cc/6Q3YDfpx/images-5.jpg`
-anu = `Hai kak ${pushname} List Group Menu↓
+anu = `Hai kak ${pushname} List grup Menu↓
    
 [★︎ *Group Menu*]
 • ${prefix}linkgroup
