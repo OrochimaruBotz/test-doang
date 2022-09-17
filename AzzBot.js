@@ -2971,10 +2971,6 @@ var button = [{ buttonId: `linkgc`, buttonText: { displayText: `GROUP BOT` }, ty
 zets.sendMessage(m.chat, { caption: `${anu}`, location: { jpegThumbnail: await reSize(buffer, 200, 200) }, buttons: button, footer:  botname, mentions: [m.sender] })
 }
 break
-//____________________anjay//
-case 'linkgrup': case 'linkgrup': case '?': {
-addCountCmd(`#${command.slice(1)}`, sender, _cmd)
-anu = `Hai kak ${pushname}, Jangan Lupa Join Group DidinBotz‡ https://chat.whatsapp.com/GSZqXilXYMbH5Ou6FBlbJG ><`
 //────────────────────[ MAIN2 MENU HOOOOOOHHH ]────────────────────
 case 'grupmenu': case 'grup': case '?': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
@@ -3003,7 +2999,7 @@ anu = `Hai kak ${pushname} List grup Menu↓
 • ${prefix}cekvote
 • ${prefix}hapusvote
 `
-var button = [{ buttonId: `linkgc`, buttonText: { displayText: `GROUP WA` }, type: 1 }, { buttonId: `owner`, buttonText: { displayText: `OWNER` }, type: 1 }]
+var button = [{ buttonId: `tesrow`, buttonText: { displayText: `BACK` }, type: 1 }, { buttonId: `owner`, buttonText: { displayText: `OWNER` }, type: 1 }]
 zets.sendMessage(m.chat, { caption: `${anu}`, location: { jpegThumbnail: await reSize(buffer, 200, 200) }, buttons: button, footer:  botname, mentions: [m.sender] })
 }
 break
@@ -3030,7 +3026,7 @@ anu = `Hai kak ${pushname} List Download Menu↓
 • ${prefix}joox [query]
 • ${prefix}soundcloud [url]
 `
-var button = [{ buttonId: `linkgc`, buttonText: { displayText: `GROUP WA` }, type: 1 }, { buttonId: `owner`, buttonText: { displayText: `OWNER` }, type: 1 }]
+var button = [{ buttonId: `tesrow`, buttonText: { displayText: `BACK` }, type: 1 }, { buttonId: `owner`, buttonText: { displayText: `OWNER` }, type: 1 }]
 zets.sendMessage(m.chat, { caption: `${anu}`, location: { jpegThumbnail: await reSize(buffer, 200, 200) }, buttons: button, footer:  botname, mentions: [m.sender] })
 }
 break
@@ -3052,7 +3048,7 @@ anu = `Hai kak ${pushname} List Search↓
 • ${prefix}ringtone [query]
 • ${prefix}stalk [option] [query]
 `
-var button = [{ buttonId: `linkgc`, buttonText: { displayText: `GROUP WA` }, type: 1 }, { buttonId: `owner`, buttonText: { displayText: `OWNER` }, type: 1 }]
+var button = [{ buttonId: `tesrow`, buttonText: { displayText: `BACK` }, type: 1 }, { buttonId: `owner`, buttonText: { displayText: `OWNER` }, type: 1 }]
 zets.sendMessage(m.chat, { caption: `${anu}`, location: { jpegThumbnail: await reSize(buffer, 200, 200) }, buttons: button, footer:  botname, mentions: [m.sender] })
 }
 break
@@ -3092,7 +3088,7 @@ anu = `Hai kak ${pushname} List Maker Menu↓
 • ${prefix}blackpink
 • ${prefix}gluetext
 `
-var button = [{ buttonId: `linkgc`, buttonText: { displayText: `GROUP WA` }, type: 1 }, { buttonId: `owner`, buttonText: { displayText: `OWNER` }, type: 1 }]
+var button = [{ buttonId: `tesrow`, buttonText: { displayText: `BACK` }, type: 1 }, { buttonId: `owner`, buttonText: { displayText: `OWNER` }, type: 1 }]
 zets.sendMessage(m.chat, { caption: `${anu}`, location: { jpegThumbnail: await reSize(buffer, 200, 200) }, buttons: button, footer:  botname, mentions: [m.sender] })
 }
 break
