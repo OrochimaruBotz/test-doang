@@ -2971,6 +2971,10 @@ var button = [{ buttonId: `linkgc`, buttonText: { displayText: `GROUP BOT` }, ty
 zets.sendMessage(m.chat, { caption: `${anu}`, location: { jpegThumbnail: await reSize(buffer, 200, 200) }, buttons: button, footer:  botname, mentions: [m.sender] })
 }
 break
+//____________________anjay//
+case 'linkgrup': case 'linkgrup': case '?': {
+addCountCmd(`#${command.slice(1)}`, sender, _cmd)
+anu = `Hai kak ${pushname}, Jangan Lupa Join Group DidinBotz‡ https://chat.whatsapp.com/GSZqXilXYMbH5Ou6FBlbJG ><`
 //────────────────────[ MAIN2 MENU HOOOOOOHHH ]────────────────────
 case 'grupmenu': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
@@ -3052,6 +3056,46 @@ var button = [{ buttonId: `linkgc`, buttonText: { displayText: `GROUP WA` }, typ
 zets.sendMessage(m.chat, { caption: `${anu}`, location: { jpegThumbnail: await reSize(buffer, 200, 200) }, buttons: button, footer:  botname, mentions: [m.sender] })
 }
 break
+//____________anjay alok mwhehe/
+case 'maker': {
+addCountCmd(`#${command.slice(1)}`, sender, _cmd)
+buffer = `https://i.postimg.cc/6Q3YDfpx/images-5.jpg`
+anu = `Hai kak ${pushname} List Maker Menu↓
+  
+ [★ *Textpro*]
+ ${prefix}3dchristma
+• ${prefix}3ddeepsea
+• ${prefix}americanflag
+• ${prefix}3dscifi
+• ${prefix}3drainbow
+• ${prefix}3dwaterpipe
+• ${prefix}halloweenskeleton
+• ${prefix}sketch
+• ${prefix}bluecircuit
+• ${prefix}metallic
+• ${prefix}fiction
+• ${prefix}transformer
+• ${prefix}berry
+• ${prefix}thunder
+• ${prefix}3dcrackedstone
+• ${prefix}3dneonlight
+• ${prefix}impressiveglitch
+• ${prefix}naturalleaves
+• ${prefix}fireworksparkle
+• ${prefix}matrix
+• ${prefix}dropwater
+• ${prefix}harrypotter
+• ${prefix}foggywindow
+• ${prefix}neondevils
+• ${prefix}christmasholiday
+• ${prefix}3dgradient
+• ${prefix}blackpink
+• ${prefix}gluetext
+`
+var button = [{ buttonId: `linkgc`, buttonText: { displayText: `GROUP WA` }, type: 1 }, { buttonId: `owner`, buttonText: { displayText: `OWNER` }, type: 1 }]
+zets.sendMessage(m.chat, { caption: `${anu}`, location: { jpegThumbnail: await reSize(buffer, 200, 200) }, buttons: button, footer:  botname, mentions: [m.sender] })
+}
+break
 //────────────────────[ BATAS TEMAN ]────────────────────
 case 'tesrow':
 let sections = [
@@ -3064,17 +3108,15 @@ let sections = [
 
                 {title: "【🏢】› Group ‹ ", rowId: `${prefix}grupmenu`, description: `Atur grupmu dengan menjadikan bot sebagai admin`},
 
-                {title: "【🌍】› RpgMenu ‹ ", rowId: `${prefix}rpgmenu`, description: `Menu untuk bermain rpg menggunakan bot`},
+                {title: "【🌍】› RpgMenu ‹ ", rowId: `${prefix}rpgmenu`, description: `( Coming soon )`},
 
-                {title: "【📟】› WebZone ‹ ", rowId: `${prefix}webmenu`, description: `Menu untuk mengambil data dari web`},
+                {title: "【📟】› WebZone ‹ ", rowId: `${prefix}webmenu`, description: `( Coming Soon`},
 
                 {title: "【📲】› Downloader ‹ ", rowId: `${prefix}downloadmenu`, description: `Download sesuatu menggunakan bot`},
 
                 {title: "【🔎】› Search ‹ ", rowId: `${prefix}searchmenu`, description: `Mencari data data dari web menggunakan bot`},
 
-                {title: "【😈】› Other ‹ ", rowId: `${prefix}othermenu`, description: `Menu lain yang random`},
-
-                {title: "【🎬】› Maker ‹ ", rowId: `${prefix}makermenu`, description: `Membuat dan mengedit menggunakan bot`},
+                {title: "【🎬】› Maker ‹ ", rowId: `${prefix}maker`, description: `Membuat dan mengedit menggunakan bot`},
 
                 {title: "【🧩】› Fun ‹ ", rowId: `${prefix}funmenu`, description: `Menu" menyenangkan yang terdapat di bot`},
 
