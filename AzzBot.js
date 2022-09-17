@@ -2733,7 +2733,7 @@ break
 case 'menu2': case 'help': case '?': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
 buffer = `https://i.postimg.cc/Mp8C1n3S/images-3.jpg`
-anu = `Hai kak ${pushname}, have a nice day:)
+anu = `Hai kak ${pushname}, have a nice day:)   
    
 [ ★︎ *INFO - BOT* ]
 [ ✔︎ *Bot Name:* _${global.botname}_ ] 
@@ -2976,7 +2976,7 @@ case 'linkgrup': case 'linkgrup': case '?': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
 anu = `Hai kak ${pushname}, Jangan Lupa Join Group DidinBotz‡ https://chat.whatsapp.com/GSZqXilXYMbH5Ou6FBlbJG ><`
 //────────────────────[ MAIN2 MENU HOOOOOOHHH ]────────────────────
-case 'grupmenu': {
+case 'grupmenu': case 'grup': case '?': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
 buffer = `https://i.postimg.cc/6Q3YDfpx/images-5.jpg`
 anu = `Hai kak ${pushname} List grup Menu↓
@@ -3008,7 +3008,7 @@ zets.sendMessage(m.chat, { caption: `${anu}`, location: { jpegThumbnail: await r
 }
 break
 //___________________[anjay]
-case 'downloadmenu': {
+case 'downloadmenu': case 'download': case '?': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
 buffer = `https://i.postimg.cc/6Q3YDfpx/images-5.jpg`
 anu = `Hai kak ${pushname} List Download Menu↓
@@ -3035,7 +3035,7 @@ zets.sendMessage(m.chat, { caption: `${anu}`, location: { jpegThumbnail: await r
 }
 break
 //_______________________[Anjay]
-case 'searchmenu': {
+case 'searchmenu': case 'search': case '?': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
 buffer = `https://i.postimg.cc/6Q3YDfpx/images-5.jpg`
 anu = `Hai kak ${pushname} List Search↓
@@ -3057,7 +3057,7 @@ zets.sendMessage(m.chat, { caption: `${anu}`, location: { jpegThumbnail: await r
 }
 break
 //____________anjay alok mwhehe/
-case 'maker': {
+case 'maker': case 'maker': case '?': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
 buffer = `https://i.postimg.cc/6Q3YDfpx/images-5.jpg`
 anu = `Hai kak ${pushname} List Maker Menu↓
