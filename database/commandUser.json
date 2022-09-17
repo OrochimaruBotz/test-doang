@@ -1,0 +1,112 @@
+[
+  {
+    "jid": "6281511480762@s.whatsapp.net",
+    "db": [
+      {
+        "nama": "#enu",
+        "count": 2
+      },
+      {
+        "nama": "#dashboard",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "jid": "6287898635798@s.whatsapp.net",
+    "db": [
+      {
+        "nama": "#dashboard",
+        "count": 1
+      },
+      {
+        "nama": "#enu",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "jid": "6281545463585@s.whatsapp.net",
+    "db": [
+      {
+        "nama": "#dashboard",
+        "count": 1
+      },
+      {
+        "nama": "#enu",
+        "count": 19
+      },
+      {
+        "nama": "#enu2",
+        "count": 5
+      },
+      {
+        "nama": "#cmenu",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "jid": "628989722384@s.whatsapp.net",
+    "db": [
+      {
+        "nama": "#enu2",
+        "count": 1
+      },
+      {
+        "nama": "#enu",
+        "count": 6
+      },
+      {
+        "nama": "#rupmenu",
+        "count": 2
+      },
+      {
+        "nama": "#ownloadmenu",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "jid": "6282182623238@s.whatsapp.net",
+    "db": [
+      {
+        "nama": "#enu",
+        "count": 2
+      },
+      {
+        "nama": "#enu2",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "jid": "6285651455987@s.whatsapp.net",
+    "db": [
+      {
+        "nama": "#enu",
+        "count": 10
+      },
+      {
+        "nama": "#cmenu",
+        "count": 5
+      },
+      {
+        "nama": "#ules",
+        "count": 3
+      },
+      {
+        "nama": "#enu2",
+        "count": 3
+      },
+      {
+        "nama": "#rupmenu",
+        "count": 3
+      },
+      {
+        "nama": "#ownloadmenu",
+        "count": 2
+      }
+    ]
+  }
+]
