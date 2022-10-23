@@ -104,14 +104,14 @@ antilink: false,
 if (typeof setting !== 'object') global.db.data.settings[botNumber] = {}
 	if (setting) {
 		if (!isNumber(setting.status)) setting.status = 0
-		if (!('autobio' in setting)) setting.autobio = false
+		if (!('autobio' in setting)) setting.autobio = true
 		if (!('templateImage' in setting)) setting.templateImage = true
 		if (!('templateVideo' in setting)) setting.templateVideo = false
 		if (!('templateGif' in setting)) setting.templateGif = false
 		if (!('templateMsg' in setting)) setting.templateMsg = false	
 	} else global.db.data.settings[botNumber] = {
 		status: 0,
-		autobio: false,
+		autobio: true,
 		templateImage: true,
 		templateVideo: false,
 		templateGif: false,
@@ -243,7 +243,7 @@ timezone: "Asia/Jakarta"
 	let setting = global.db.data.settings[botNumber]
 	if (new Date() * 1 - setting.status > 1000) {
 		let uptime = await runtime(process.uptime())
-		await zets.setStatus(`${zets.user.name} | Runtime : ${runtime(uptime)}`)
+		await zets.setStatus(`${zets.user.name} | Aktif Selama : ${runtime(uptime)}⛩️`)
 		setting.status = new Date() * 1
 	}
 	}
