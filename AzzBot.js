@@ -30,8 +30,8 @@ let setting = JSON.parse(fs.readFileSync('./apikey.json'))
 
 //limit
 limitawal = '1000000000000000000000000000000'
-botname = 'DidinBotz‡'
-wm = '©DidinSec 𖤍'
+botname = 'HumanzBotzMD'
+wm = '©humanz 𖤍'
 
 // read database
 let tebaklagu = db.data.game.tebaklagu = []
@@ -243,7 +243,7 @@ timezone: "Asia/Jakarta"
 	let setting = global.db.data.settings[botNumber]
 	if (new Date() * 1 - setting.status > 1000) {
 		let uptime = await runtime(process.uptime())
-		await zets.setStatus(`${zets.user.name} | Aktif Selama : ${runtime(uptime)}⛩️`)
+		await zets.setStatus(`${zets.user.name} | Aktif Selama : ${uptime}⛩️😈`)
 		setting.status = new Date() * 1
 	}
 	}
@@ -3131,93 +3131,3 @@ let sections = [
                 {title: "【🎙️】› VoiceChanger ‹ ", rowId: `${prefix}vcmenu`, description: `Mengubah suara menggunakan bot`},
 
                 {title: "【🛠️】› OwnerMenu ‹ ", rowId: `${prefix}ownermenu`, description: `Menu mengatur bot (khusus owner)`}
-
-                ]
-
-                },
-
-                ]
-
-                zets.sendListMsg(m.chat, `Haii ${pushname}, Aku DidinBotz‡
-Bot whatsapp multi-device yang dapat membantumu`, ' ', ' ', `Click Here`, sections, m)
-break
-//────────────────────[ BATAS TEMAN ]────────────────────
-default:
-if (budy.startsWith('=>')) {
-if (!isCreator) return m.reply(mess.owner)
-function Return(sul) {
-sat = JSON.stringify(sul, null, 2)
-bang = util.format(sat)
-if (sat == undefined) {
-bang = util.format(sul)
-}
-return m.reply(bang)
-}
-try {
-m.reply(util.format(eval(`(async () => { return ${budy.slice(3)} })()`)))
-} catch (e) {
-m.reply(String(e))
-}
-}
-
-if (budy.startsWith('>')) {
-if (!isCreator) return m.reply(mess.owner)
-try {
-let evaled = await eval(budy.slice(2))
-if (typeof evaled !== 'string') evaled = require('util').inspect(evaled)
-await m.reply(evaled)
-} catch (err) {
-await m.reply(String(err))
-}
-}
-
-if (budy.startsWith('$')) {
-if (!isCreator) return m.reply(mess.owner)
-exec(budy.slice(2), (err, stdout) => {
-if(err) return m.reply(err)
-if (stdout) return m.reply(stdout)
-})
-}
-			
-		if (m.chat.endsWith('@s.whatsapp.net') && isCmd) {
-this.anonymous = this.anonymous ? this.anonymous : {}
-let room = Object.values(this.anonymous).find(room => [room.a, room.b].includes(m.sender) && room.state === 'CHATTING')
-if (room) {
-if (/^.*(next|leave|start)/.test(m.text)) return
-if (['.next', '.leave', '.stop', '.start', 'Cari Partner', 'Keluar', 'Lanjut', 'Stop'].includes(m.text)) return
-let other = [room.a, room.b].find(user => user !== m.sender)
-m.copyNForward(other, true, m.quoted && m.quoted.fromMe ? {
-contextInfo: {
-...m.msg.contextInfo,
-forwardingScore: 0,
-isForwarded: true,
-participant: other
-}
-} : {})
-}
-return !0
-}
-			
-		if (isCmd && budy.toLowerCase() != undefined) {
-		if (m.chat.endsWith('broadcast')) return
-		if (m.isBaileys) return
-		let msgs = global.db.data.database
-		if (!(budy.toLowerCase() in msgs)) return
-		zets.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
-		}
-}
-
-
-} catch (err) {
-m.reply(util.format(err))
-}
-}
-
-
-let file = require.resolve(__filename)
-fs.watchFile(file, () => {
-	fs.unwatchFile(file)
-	console.log(chalk.redBright(`Update ${__filename}`))
-	delete require.cache[file]
-	require(file)
-})
