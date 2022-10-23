@@ -16,16 +16,16 @@ global.xteam = 'apivproject'
 global.lolhuman = 'yourkey'
 
 // Other
-global.owner = ['6281545463585', '6282182623238']
-global.premium = ['6281545463585']
-global.ownername = '©DidinSec 𖤍'
+global.owner = ['6288804947282']
+global.premium = ['6288804947282']
+global.ownername = '©Humanz'
 global.botname = 'DidinBotz‡'
-global.packname = '©©DidinSec 𖤍'
-global.gc = 'https://github.com/DidinSec'
+global.packname = '©©Humanz'
+global.gc = 'https://github.com/OrochimaruBotz'
 global.linkyt = 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
 global.linkgc = 'https://chat.whatsapp.com/GSZqXilXYMbH5Ou6FBlbJG'
 global.limitawal = '100'
-global.author = '@DidinSec 𖤍\n@DidinBotz‡'
+global.author = '@Humanz 𖤍\n@DidinBotz‡'
 global.sessionName = 'sessionya'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⌕'
